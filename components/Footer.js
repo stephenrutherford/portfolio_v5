@@ -18,7 +18,7 @@ function Footer() {
 
         <ul className="flex space-x-4 list-none ">
           <li className="nav">
-            <a href={process.env.NEXT_PUBLIC_GITHUB_URL}>
+            <a href={process.env.NEXT_PUBLIC_GITHUB_URL} target="_blank">
               <Image
                 src="/images/github2.png"
                 width={24}
